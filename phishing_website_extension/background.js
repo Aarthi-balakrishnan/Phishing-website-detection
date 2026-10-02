@@ -431,7 +431,7 @@ function inPageSafe(result) {
 // ============================================================
 // NAVIGATION — TWO-PHASE ENGINE
 // ============================================================
-
+ 
 async function runDetection(tabId, url) {
   if (shouldSkipUrl(url)) return;
 
